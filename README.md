@@ -29,31 +29,26 @@ pip install gTTS googletrans SpeechRecognition pyaudio
 
 **Note: pyaudio might require additional steps to install on certain systems. For more information, refer to the official documentation: PyAudio Installation.**
 
-##How to Use
-###Step 1: Open the Application
-    -Run the Python script audio_translator.py to launch the GUI.
+## How to Use
+### Step 1: Open the Application
+-Run the Python script audio_translator.py to launch the GUI.
+### Step 2: Input Target Language Code
+-In the Target Language Code field, enter the desired language code (e.g., 'es' for Spanish or 'fr' for French).
+### Step 3: View Language Code Guide
+-Click the Language Code Guide button to view a table of common language codes supported by the translation API.
+### Step 4: Start Recording
+-Click Start Recording to begin recording your speech. Speak clearly into the microphone. Once the speech is captured, it will be converted into text and displayed in the Recognized Text field.
+### Step 5: Translation and Text-to-Speech
+-The recognized text will be translated to the specified target language, and the translated text will be read out loud by the application.
+### Step 6: Exit
+-Click Exit to close the application.
 
-###Step 2: Input Target Language Code
-    -In the Target Language Code field, enter the desired language code (e.g., 'es' for Spanish or 'fr' for French).
-
-###Step 3: View Language Code Guide
-    -Click the Language Code Guide button to view a table of common language codes supported by the translation API.
-
-###Step 4: Start Recording
-    -Click Start Recording to begin recording your speech. Speak clearly into the microphone. Once the speech is captured, it will be converted into text and displayed in the Recognized Text field.
-
-###Step 5: Translation and Text-to-Speech
-    -The recognized text will be translated to the specified target language, and the translated text will be read out loud by the application.
-
-###Step 6: Exit
-    -Click Exit to close the application.
-
-##GUI Overview
-  -**Target Language Code Field**: Input the language code for translation.
-  -**Language Code Guide**: Button to open a window displaying language codes.
-  -**Start Recording**: Button to start capturing speech.
-  -**Status**: Displays the current status of the application (e.g., "Listening...", "Speech recognized!").
-  -**Recognized Text**: Displays the text recognized from the speech.
-  -**Exit**: Button to close the application.
-##License
-  -This project is open-source and available under the MIT License.
+## GUI Overview
+-**Target Language Code Field**: Input the language code for translation.
+-**Language Code Guide**: Button to open a window displaying language codes.
+-**Start Recording**: Button to start capturing speech.
+-**Status**: Displays the current status of the application (e.g., "Listening...", "Speech recognized!").
+-**Recognized Text**: Displays the text recognized from the speech.
+-**Exit**: Button to close the application.
+## License
+-This project is open-source and available under the MIT License.
