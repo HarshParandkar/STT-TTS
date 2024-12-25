@@ -1,5 +1,5 @@
-#STT-TTS
-##Speech to Text - Translate - Text to Speech
+# STT-TTS
+## Speech to Text - Translate - Text to Speech
 
 This **Audio Translator** application is a simple tool that allows users to convert spoken language into text, translate it into a target language, and then read it out loud using text-to-speech. The app supports various languages and makes use of Google APIs for speech recognition, translation, and speech synthesis.
 
